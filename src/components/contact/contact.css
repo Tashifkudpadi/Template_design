@@ -1,0 +1,97 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b9d6cf;
+  padding: 2rem 6rem;
+}
+
+/* first */
+
+.first,
+.second,
+.third {
+  width: 400px;
+}
+
+.second {
+  padding-left: 3.5rem;
+}
+
+.first h3 {
+  font-size: 28px;
+  color: #3b967d;
+}
+
+.para {
+  font-weight: 600;
+  font-style: italic;
+}
+.first p {
+  line-height: 1.4;
+}
+
+.social {
+  display: flex;
+}
+.social span {
+  background-color: #246453;
+  border-radius: 50%;
+  margin: 6px;
+}
+
+.social span i {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  padding: 12px;
+}
+
+/* second */
+.call h3,
+.location h3,
+.services h3 {
+  color: #3b967d;
+  font-size: 18px;
+}
+
+.second ul {
+  padding: 0;
+}
+
+.second ul li {
+  list-style: none;
+  font-size: 16px;
+}
+
+/* third */
+
+form input {
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+  border: 1px solid #eee;
+  margin: 12px 0;
+  width: 300px;
+}
+
+.third textarea {
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.third button {
+  background-color: #3b967d;
+  width: 328px;
+  padding: 12px 10px;
+  border-radius: 12px;
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.third button:hover {
+  background-color: #246453;
+}

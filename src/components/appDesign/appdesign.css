@@ -1,0 +1,53 @@
+.appdesign {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  padding: 0 4rem;
+}
+
+.aLeft {
+  background-color: rgb(253, 240, 223);
+  border-radius: 12px;
+  padding: 1rem;
+  width: 480px;
+}
+.aLeft h3,
+.aLeft span {
+  color: rgb(209, 148, 72);
+}
+
+.aRight span i,
+.aLeft span i {
+  font-size: 16px;
+  margin-left: 5px;
+}
+.aLeft span i:hover,
+.aRight span i:hover {
+  transform: translateX(2px);
+}
+
+.aRight span:hover,
+.aLeft span:hover {
+  transform: translateX(2px);
+  text-decoration: underline;
+}
+
+.aRight {
+  background-color: #3b967d;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 480px;
+}
+
+.aRight h3,
+.aRight span {
+  color: rgb(218, 252, 243);
+}
+
+.aLeft p,
+.aRight p {
+  font-size: 34px;
+  width: 400px;
+  margin-top: 1rem;
+}

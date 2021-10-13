@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(68, 65, 62);
+  padding: 0.4rem 0;
+}
+
+.footer p {
+  color: #ddd;
+  text-align: center;
+  font-size: 16px;
+  width: 420px;
+  font-style: oblique;
+}

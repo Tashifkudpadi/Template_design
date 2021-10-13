@@ -1,0 +1,71 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #1f4037; */
+  background-color: #b9d6cf;
+
+  padding-bottom: 2rem;
+}
+
+.features span {
+  font-size: 18px;
+  text-transform: uppercase;
+  /* color: #eee; */
+  color: #1f4037;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-top: 2.4rem;
+}
+
+.features h1 {
+  /* color: #ddd; */
+  color: #1f4037;
+}
+
+/* container */
+.fContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: #1f4037; */
+}
+
+.fContent {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 400px;
+  padding: 1rem;
+  margin: 1rem;
+  height: 100%;
+}
+.fContent p {
+  font-size: 17px;
+  color: #1f4037;
+  text-align: center;
+}
+.features span {
+  text-transform: capitalize;
+}
+.features span a {
+  color: rgb(97, 91, 91);
+}
+
+.fContent button {
+  background-color: #1f4037;
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+
+.fContent button:hover {
+  cursor: pointer;
+  background-color: rgb(161, 160, 160);
+  color: #1f4037;
+}
